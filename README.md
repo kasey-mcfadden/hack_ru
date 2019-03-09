@@ -1,6 +1,5 @@
 # Hack RU Project: Merck Supply Chain Data Visualization
 #### Meet Patel, Abdullah Ramadan, Kasey McFadden, Kailash Raman
-------
 
 ### TODO
 1. Merck Data
@@ -18,6 +17,9 @@
 4. Domainer
 + rent domain to host
 
+5. Twilio
+
+6. Catchy-ass name
 
 ### Integrations
 - Merck: pharmaceutical data API
