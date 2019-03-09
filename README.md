@@ -1,6 +1,11 @@
 # Hack RU Project: Merck Supply Chain Data Visualization
 #### Meet Patel, Abdullah Ramadan, Kasey McFadden, Kailash Raman
 
+## Usage
+``cd
+git clone https://github.com/kasey-mcfadden/hack_ru.git
+open ~/hack_ru/index.html``
+
 ### TODO
 1. Merck Data
 + familiarize
