@@ -1,8 +1,6 @@
-# Hack RU Project
-------
+# Hack RU Project: Merck Supply Chain Data Visualization
 #### Meet Patel, Abdullah Ramadan, Kasey McFadden, Kailash Raman
-
-## Merck Supply Chain Data Visualization
+------
 
 ### TODO
 1. Merck Data
