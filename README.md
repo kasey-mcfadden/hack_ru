@@ -1,2 +1,3 @@
-# hack_ru
-HackRU
+# Hack RU Project
+Meet Patel, Abdullah Ramadan, Kasey McFadden
+
