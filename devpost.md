@@ -17,13 +17,15 @@ We set out to tackle these issues by creating an intuitive visualization of phar
 python, js, html, css, golang
 
 
-## Challenges we ran into
+## Biggest challenge we ran into
 * Most of Merck's 200 sample data entries shared attributes (e.g. most were at coords [0, 0])
   * We generated our own fake Merck data set using randomization in python and publicly available data on the 1000 most populated American cities 
 
 ## Accomplishments that we're proud of
-*
++ Creating interactive geographical map model without experience in html, js, css, etc.
++ Beautifying supply chain data with frontend design
++ Developing thorough understanding of Merck's blockchain-api, deciphering shipment data 
 
 ## What we learned
-javascript, bootstrap, html
+js, bootstrap, html
 
