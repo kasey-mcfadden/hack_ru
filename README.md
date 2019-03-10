@@ -4,7 +4,7 @@
 ## Usage
 http://maps.merck-map.com/
 
-### TODO
+## TODO
 1. Merck Data
 + familiarize
 + get API credentials, play around
@@ -21,7 +21,7 @@ http://maps.merck-map.com/
 + rent domain to host
 
 
-### Integrations
+## Integrations
 - Merck: pharmaceutical data API
 - GCP: code hosting
 - Domainer: domain name rental
