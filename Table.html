@@ -30,7 +30,7 @@
 
 
   <!-- Bootstrap core CSS     -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!-- Animation library for notifications   -->
   <link href="assets/css/animate.min.css" rel="stylesheet"/>
@@ -42,6 +42,7 @@
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
   <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
 
 </head>
 <body>
@@ -49,14 +50,6 @@
 
 <div class="wrapper">
   <div class="sidebar" data-color="blue">
-
-    <!--
-
-        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-        Tip 2: you can also add an image using data-image tag
-
-    -->
-
     <div class="sidebar-wrapper">
       <ul class="nav">
         <li class="active">
@@ -117,7 +110,7 @@
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <table border="1" class="dataframe table">
+          <table id="dataTable1" border="1" class="dataframe table">
             <thead>
             <tr style="text-align: right;">
               <th scope="col">#</th>
@@ -1942,8 +1935,11 @@
 
 </body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+
 <!--   Core JS Files   -->
-<script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 
 <!--  Charts Plugin -->
@@ -1960,6 +1956,12 @@
 
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('#dataTable1').DataTable();
+  })
+</script>
 
 
 </html>
