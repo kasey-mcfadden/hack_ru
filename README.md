@@ -5,7 +5,7 @@
 ```
 cd
 git clone https://github.com/kasey-mcfadden/hack_ru.git
-open ~/hack_ru/index.html
+open ~/hack_ru/distribution.html
 ```
 
 ### TODO
@@ -24,9 +24,6 @@ open ~/hack_ru/index.html
 4. Domainer
 + rent domain to host
 
-5. Twilio
-
-6. Catchy-ass name
 
 ### Integrations
 - Merck: pharmaceutical data API
