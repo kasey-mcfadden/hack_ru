@@ -11,13 +11,14 @@ for x in sn:
 		"gtin": "08806555018611", 
 		"serialNumber": x, 
 		"lotNumber": "R036191", 
-		"expiryDate": "2021-07-07T00:00:00.00Z"
+		"expiryDate": "2021-07-07T00:00:00.000Z"
 	}
 	data += json.dumps(product) + ", "
 
 data = data[:-2]
 data += ']}'
 data = json.loads(data)
+# print(json.dumps(data, indent=4, sort_keys=True))
 
 r = requests.post(url, json=data, headers={'Content-Type': 'application/json', 'Authorization': auth})
 
