@@ -5,7 +5,7 @@
 ```
 cd
 git clone https://github.com/kasey-mcfadden/hack_ru.git
-open ~/hack_ru/index.html
+open ~/hack_ru/distribution.html
 ```
 
 ### TODO
@@ -24,23 +24,9 @@ open ~/hack_ru/index.html
 4. Domainer
 + rent domain to host
 
-5. Twilio
-
-6. Catchy-ass name
 
 ### Integrations
 - Merck: pharmaceutical data API
 - GCP: code hosting
 - Domainer: domain name rental
 - (?) Twilio: chatbot/slackbot (virtual number rental - send + receive SMS)
-
-### Eligible Prizes
-- AirPods ($150 value)
-- Merck ($250 value)
-- Gartner ($125 value)
-- GCP ($50 value)
-- Domainer
-- Twilio
-
-#### License
-MIT
