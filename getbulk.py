@@ -35,5 +35,18 @@ r = requests.post(bulk_url, json=data, headers={'Content-Type': 'application/jso
 
 content = json.loads(r.content)
 
+for x in content["products_found"]:
+	# print(json.dumps(x, indent=4, sort_keys=True))
+	print("{")
+	print("    country: ", x["country"])
+	print("    latitude: ", x["latitude"])
+	print("    longitude: ", x["longitude"])
+	print("    globalLocationNumber: ", x["globalLocationNumber"])
+	print("    packStatus: ", x["packStatus"])
+	print("    logisticStatus: ", x["logisticStatus"])
+	print("}")
+	
+
+
 # sys.stdout = open('output.json', 'w')
-print(json.dumps(content, indent=4, sort_keys=True))
+# print(json.dumps(content, indent=4, sort_keys=True))
