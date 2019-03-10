@@ -49,7 +49,7 @@ for x in content["products_found"]:
 	print("}")
 
 df = pandas.DataFrame(table, columns=["country", "latitude", "longitude", "globalLocationNumber", "packStatus", "logisticStatus"])
-df.to_html("/Users/kaseym/hack_ru/Table.html")
+df.to_html("Table.html", classes="table")
 
 # sys.stdout = open('output.json', 'w')
 # print(json.dumps(content, indent=4, sort_keys=True))
