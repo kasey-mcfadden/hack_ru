@@ -1,31 +1,11 @@
-# Hack RU Project: Merck Supply Chain Data Visualization
-#### Meet Patel, Abdullah Ramadan, Kasey McFadden, Kailash Raman
+# Merck-Map: Merck Supply Chain Data Visualization
+#### Kasey McFadden, Meet Patel, Abdullah Ramadan, Kailash Raman
+
+## Results
+1st Place Winner of Best Use of the Merck API Challenge at [HackRU](http://hackru-s19.devpost.com/). See the [DevPost Submission](https://devpost.com/software/merck-map).
 
 ## Usage
 http://maps.merck-map.com/
-
-## TODO
-1. Merck Data
-+ familiarize
-+ get API credentials, play around
-
-2. D3.js
-+ brainstorm visualization methods
-+ follow templates/tutorials
-+ import data from Merck
-
-3. Google Cloud Platform (GCP)
-+ code migration from local
-
-4. Domainer
-+ rent domain to host
-
-
-## Integrations
-- Merck: pharmaceutical data API
-- GCP: code hosting
-- Domainer: domain name rental
-- (?) Twilio: chatbot/slackbot (virtual number rental - send + receive SMS)
 
 ## Inspiration
 The [biggest challenges](https://www.gtnexus.com/resources/blog-posts/top-10-challenges-global-pharmaceutical-supply-chains) pharmaceutical companies are facing today include: 
@@ -58,3 +38,7 @@ python, js, html, css, golang
 ## What we learned
 js, bootstrap, html
 
+## Integrations
+- Merck: pharmaceutical data blockchain API
+- Google Cloud Platform: code hosting
+- Domainer: domain name rental
