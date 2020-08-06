@@ -5,7 +5,7 @@
 1st Place Winner of Best Use of the Merck API Challenge at [HackRU](http://hackru-s19.devpost.com/). See the [DevPost Submission](https://devpost.com/software/merck-map).
 
 ## Usage
-http://maps.merck-map.com/
+https://kasey-mcfadden.github.io/hack_ru
 
 ## Inspiration
 The [biggest challenges](https://www.gtnexus.com/resources/blog-posts/top-10-challenges-global-pharmaceutical-supply-chains) pharmaceutical companies are facing today include: 
