@@ -1,4 +1,4 @@
-# Merck-Map: Merck Supply Chain Data Visualization
+# [Merck-Map](https://kasey-mcfadden.github.io/hack_ru): Merck Supply Chain Data Visualization
 #### Kasey McFadden, Meet Patel, Abdullah Ramadan, Kailash Raman
 
 ## Results
